@@ -1,8 +1,5 @@
 package exerciceI;
 
-import java.util.Scanner;
-
-
 public class ProduitTest {
 
 	public static void main(String[] args) {
@@ -25,7 +22,6 @@ public class ProduitTest {
 		System.out.println("Nom : " + p.getNom() + "   Code : " + p.getCode());
 		System.out.println("Nom : " + p2.getNom() + "   Code : " + p2.getCode() + "   Prix : " + p2.getPrix());
 		
-	
 
 	}
 
