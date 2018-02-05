@@ -4,9 +4,9 @@ public class Produit
 {
 	
 	// variables d'instances
-	String code;
-	String nom;
-	int prix;
+	private String code;
+	private String nom;
+	private int prix;
 	
 	
 	//Constructeur
