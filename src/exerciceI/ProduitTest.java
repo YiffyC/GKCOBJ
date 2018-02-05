@@ -5,13 +5,13 @@ public class ProduitTest {
 	public static void main(String[] args) {
 		
 		
-		//Création des produits
+		//Crï¿½ation des produits
 		Produit p = new Produit("produit100");
 		Produit p2 = new Produit("produit200");
 		
 		
 		//modification des produits
-		p.setNom("Crayon à papier");
+		p.setNom("Crayon a papier");
 		p.setPrix(1);
 		
 		p2.setNom("Crayon de couleur");
