@@ -2,18 +2,27 @@ package exerciceI;
 
 public class Produit 
 {
+	
+	// variables d'instances
 	String code;
 	String nom;
 	int prix;
 	
+	
+	//Constructeur
 	public Produit(String code)
 	{
-		this.code = code;
-		nom = "";
-		prix = -1;
+		this.code = code;	//Construction avec le code passé en argument
+		nom = "";			//Par défaut pas de nom
+		prix = -1;			//Par défaut prix = -1
 		
 	}
 
+	
+	//getter - setter
+	// Get lis les informations
+	// Set permet de modifier la valeur d'une variable par la (les) donnée(s) en paramètre
+	
 	public String getCode() {
 		return code;
 	}

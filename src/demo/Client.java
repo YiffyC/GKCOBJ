@@ -8,8 +8,8 @@ public class Client {
 	
 	
 	public Client() {
-		// constructeur // 
 		
+		// constructeur // 		
 		numero = 0;
 		nom = "Inconnu";
 		cpt++;
