@@ -6,8 +6,10 @@ public class VoitureTest {
 		// TODO Auto-generated method stub
 		
 		
-		Voiture v = new Voiture();
-		System.out.println("1. " + v.info()); //affichage de la voiture generee de base 
+		Voiture v = new Voiture();							//v cree avec le constructeur sans arguments
+		Voiture v2 = new Voiture ("vsiolet", "Ford", 5);		//v2 cree avec le constructeur avec les arguments
+		System.out.println("1 (sans arg). " + v.info()); 	//affichage de v 
+		System.out.println("1 (avec arg). " + v2.info());	//affichage de v2 
 		
 		
 		v.setNbPortes(5);				// on donne 5 portes à v
@@ -43,10 +45,11 @@ public class VoitureTest {
 		{
 			tab[i] = new Voiture();
 			tab[i].setNbPortes(i);
-			System.out.println("Boucle " + i + " " +tab[i].info());
+			System.out.println("Boucle " + i + " - " +tab[i].info());
 			
 		}
 		*/
+		
 		
 		
 		

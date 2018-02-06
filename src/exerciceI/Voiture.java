@@ -13,6 +13,15 @@ public class Voiture {
 		marque = "Ferrari";
 		nbPortes = 3;
 	}
+	
+	
+	//Constructeur avec parametres
+	public Voiture(String couleur, String marque, int nbPortes)
+	{
+		this.couleur = couleur;
+		this.marque = marque;
+		this.nbPortes = nbPortes;
+	}
 
 	
 	public String info()
