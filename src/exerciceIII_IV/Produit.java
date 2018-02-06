@@ -5,7 +5,7 @@ public class Produit
 	
 	// variables d'instances
 	private String code;
-	Denomination denom;					//on utilise une denomination
+	private Denomination denom;					//on utilise une denomination
 	private int prix;
 	
 	

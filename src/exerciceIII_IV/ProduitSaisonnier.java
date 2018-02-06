@@ -2,8 +2,8 @@ package exerciceIII_IV;
 
 public class ProduitSaisonnier extends Produit {
 	
-	String saison;
-	int remiseFinSaison;
+	private String saison;
+	private int remiseFinSaison;
 	
 
 	

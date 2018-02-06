@@ -6,8 +6,8 @@ import java.util.Date;
 
 public class ProduitPerissable extends Produit {
 	
-	int dureeConservation;
-	Date dteFabrication;
+	private int dureeConservation;
+	private Date dteFabrication;
 	
 
 	
