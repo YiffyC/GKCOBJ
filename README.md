@@ -5,7 +5,7 @@ agregation-Composition
 - illustation du code pour la composition
 
 Demo
--Exemple du cours avec le client
+- Exemple du cours avec le client
 
 Exercice 1.
 
