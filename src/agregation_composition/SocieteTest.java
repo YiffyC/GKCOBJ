@@ -15,8 +15,12 @@ public class SocieteTest {
 		//Afficher la raison sociale du service de la division
 		System.out.println(s.getDivision().getService().getRaisonSociale());
 		
+		
+		//on choisit le nom de la societe
 		s.setNom("Orange");
+		//on choisit le nom de la division
 		s.getDivision().setNom("R&D");
+		//on choisit le nom du service
 		s.getDivision().getService().setRaisonSociale("Bureau de recherche en Java");
 		
 		
