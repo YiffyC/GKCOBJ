@@ -12,6 +12,8 @@ public class VoitureTest {
 		System.out.println("1 (avec arg). " + v2.info());	//affichage de v2 
 		
 		
+		
+		
 		v.setNbPortes(5);				// on donne 5 portes à v
 		v.setMarque("BMW");				//on passe la marqueà BMW
 		v.setCouleur("Noir");			//on passe la couleur à noir
@@ -19,6 +21,10 @@ public class VoitureTest {
 		
 		v.setNbPortes(15);				//on passe le nombre de portes a 15 (Impossible car nbPorte == 3 ou ==5)
 		System.out.println("3. " + v.info());	//On verifie que le nombre de porte ne passe pas a 15
+		
+		// Avec la nouvelle methode setNbPortes
+		System.out.println(v.setNbPortes(5));
+		System.out.println(v.setNbPortes(150));
 		
 		
 		

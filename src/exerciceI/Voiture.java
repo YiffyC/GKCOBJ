@@ -59,14 +59,38 @@ public class Voiture {
 		return nbPortes;
 	}
 
-
-	public void setNbPortes(int nbPortes) {
+/*
+	public void setNbPortes(int nbPortes) 
+	{
 		if(nbPortes == 3 || nbPortes == 5)
 		{
 			//si le nombre de portes est exactement 3 ou 5 alors on modifie
-		this.nbPortes = nbPortes;
-		//sinon on ne fait rien
+			this.nbPortes = nbPortes;
 		}
+		// sinon rien
+
+	}
+*/
+	
+	
+	
+	//Si on veut retourner un message d'erreur
+	
+	public String setNbPortes(int nbPortes) 
+	{
+		if(nbPortes == 3 || nbPortes == 5)
+		{
+			//si le nombre de portes est exactement 3 ou 5 alors on modifie
+			this.nbPortes = nbPortes;
+			return "Nombre de portes mis a jour vers la valeur " + nbPortes;
+		}
+		
+		else 
+		{
+			return "La valeur " + nbPortes + " est impossible";
+		}
+		// sinon rien
+
 	}
 	
 
