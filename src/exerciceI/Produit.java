@@ -27,9 +27,6 @@ public class Produit
 		return code;
 	}
 
-	public void setCode(String code) {
-		this.code = code;
-	}
 
 	public String getNom() {
 		return nom;
