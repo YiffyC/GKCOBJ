@@ -62,9 +62,11 @@ public class Voiture {
 
 	public void setNbPortes(int nbPortes) {
 		if(nbPortes == 3 || nbPortes == 5)
+		{
 			//si le nombre de portes est exactement 3 ou 5 alors on modifie
 		this.nbPortes = nbPortes;
 		//sinon on ne fait rien
+		}
 	}
 	
 
