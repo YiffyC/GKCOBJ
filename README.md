@@ -1,6 +1,11 @@
 # GKCOBJ
 Des concepts objet au langage Version Java
 ____________________________________________
+agregation-Composition
+- illustation du code pour la composition
+
+Demo
+-Exemple du cours avec le client
 
 Exercice 1.
 
