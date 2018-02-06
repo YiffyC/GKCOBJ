@@ -20,6 +20,13 @@ Exercice 2.
 
 - Agregation
 - Utilisation d'un objet description dans un produit
+
+Exercice 3 & 4
+
+- Héritage et polymorphisme
+- Produit perissable et produit saisonnier
+
+
 ___________________________________________
 ___________________________________________
 Le les dossiers ci dessus se trouvent dans /src/
