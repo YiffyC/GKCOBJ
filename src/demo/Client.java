@@ -5,7 +5,7 @@ public class Client {
 	 //static = var de classe --> ce compteur n'est pas instancié avec le client. Il n'est créé qu'a l'appel de la classe Client
 	private int numero;
 	private String nom;
-	Adresse adresse;
+	private Adresse adresse;
 	
 	
 	public Client() {
